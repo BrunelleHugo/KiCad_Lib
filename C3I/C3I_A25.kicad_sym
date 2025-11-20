@@ -5,9 +5,6 @@
 	(symbol "0ZCJ0025FF2E"
 		(pin_names
 			(offset 0.254)
-	(symbol "ABLS-13.560MHZ-10-R20-D-T"
-		(pin_names
-			(offset 1.016)
 		)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -29,25 +26,6 @@
 			)
 		)
 		(property "Footprint" "0ZCJ_BEL"
-		(property "Reference" "Y"
-			(at -5.0878 3.8159 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "ABLS-13.560MHZ-10-R20-D-T"
-			(at -5.0944 -5.0944 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "C3I_A25:XTAL_ABLS-13.560MHZ-10-R20-D-T"
 			(at 0 0 0)
 			(effects
 				(font
@@ -58,12 +36,6 @@
 			)
 		)
 		(property "Datasheet" "0ZCJ0025FF2E"
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
 			(at 0 0 0)
 			(effects
 				(font
@@ -91,7 +63,6 @@
 			)
 		)
 		(property "ki_keywords" "0ZCJ0025FF2E"
-		(property "PARTREV" "02.16.2021"
 			(at 0 0 0)
 			(effects
 				(font
@@ -101,11 +72,6 @@
 			)
 		)
 		(property "ki_fp_filters" "0ZCJ_BEL"
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "STANDARD" "Manufacturer Recommendations"
 			(at 0 0 0)
 			(effects
 				(font
@@ -121,37 +87,6 @@
 				(end 5.08 0)
 				(stroke
 					(width 0.254)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MAXIMUM_PACKAGE_HEIGHT" "4.2 mm"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" "Abracon"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(symbol "ABLS-13.560MHZ-10-R20-D-T_0_0"
-			(polyline
-				(pts
-					(xy -2.3368 2.54) (xy -2.3368 -2.54)
-				)
-				(stroke
-					(width 0.4064)
 					(type default)
 				)
 				(fill
@@ -164,12 +99,6 @@
 				(end 5.08 0)
 				(stroke
 					(width 0.254)
-			(polyline
-				(pts
-					(xy -1.397 2.54) (xy -1.397 -2.54)
-				)
-				(stroke
-					(width 0.4064)
 					(type default)
 				)
 				(fill
@@ -183,61 +112,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-			(polyline
-				(pts
-					(xy -1.397 2.54) (xy 1.397 2.54)
-				)
-				(stroke
-					(width 0.4064)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.397 2.54) (xy 1.397 -2.54)
-				)
-				(stroke
-					(width 0.4064)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 1.397 -2.54) (xy -1.397 -2.54)
-				)
-				(stroke
-					(width 0.4064)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 2.3368 2.54) (xy 2.3368 -2.54)
-				)
-				(stroke
-					(width 0.4064)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin passive line
-				(at -5.08 0 0)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -245,7 +119,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -257,13 +130,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-			(pin passive line
-				(at 5.08 0 180)
-				(length 2.54)
-				(name "~"
-					(effects
-						(font
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -271,7 +137,6 @@
 					(effects
 						(font
 							(size 1.27 1.27)
-							(size 1.016 1.016)
 						)
 					)
 				)
@@ -718,308 +583,6 @@
 					)
 				)
 				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-		)
-		(embedded_fonts no)
-	)
-	(symbol "MICRF112YMM"
-		(pin_names
-			(offset 0.254)
-		)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(property "Reference" "U"
-			(at 25.4 10.16 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "MICRF112YMM"
-			(at 25.4 7.62 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "C3I_A25:MSOP10_MC_MCH"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "MICRF112YMM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_keywords" "MICRF112YMM"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "ki_fp_filters" "MSOP10_MC_MCH MSOP10_MC_MCH-M MSOP10_MC_MCH-L"
-			(at 0 0 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(symbol "MICRF112YMM_0_1"
-			(polyline
-				(pts
-					(xy 7.62 5.08) (xy 7.62 -15.24)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 7.62 -15.24) (xy 43.18 -15.24)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 43.18 5.08) (xy 7.62 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 43.18 -15.24) (xy 43.18 5.08)
-				)
-				(stroke
-					(width 0.127)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin input line
-				(at 0 0 0)
-				(length 7.62)
-				(name "ASK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 0 -2.54 0)
-				(length 7.62)
-				(name "XTLIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 0 -5.08 0)
-				(length 7.62)
-				(name "XTLOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -7.62 0)
-				(length 7.62)
-				(name "VSS"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 0 -10.16 0)
-				(length 7.62)
-				(name "XTAL_MOD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 50.8 0 180)
-				(length 7.62)
-				(name "VDD"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at 50.8 -2.54 180)
-				(length 7.62)
-				(name "PAOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 50.8 -5.08 180)
-				(length 7.62)
-				(name "VSSPA"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 50.8 -7.62 180)
-				(length 7.62)
-				(name "EN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 50.8 -10.16 180)
-				(length 7.62)
-				(name "FSK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
